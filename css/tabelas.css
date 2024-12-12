@@ -1,0 +1,70 @@
+.titulo-principal{
+    text-align: center;
+    color: #3c4b80;
+}
+.secao-tabela{
+    width: 100%;
+    font-family: 'Poppins';
+}
+.tabela-principal{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+table th, table td {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family:'Poppins';
+    font-weight: 500;
+}
+.dt-column-title{
+    color: #3c4b80;
+}
+table tr{
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    width: 100%;
+    padding: 0.3%;
+    
+}
+table th {
+    font-weight: 600;
+    border-bottom: none;
+    gap: 8%;
+    width: 100%;
+}
+
+table td {
+    background-color: #3c4b80;
+    border-radius: 20px;
+    gap: 8%;
+    width: 100%;
+}
+
+.cargo{
+    justify-content: center;
+}
+label, .dt-info, .dt-paging-button{
+    font-size: 1.2rem;
+    color: #3c4b80;
+}
+
+table.dataTable > thead > tr > th, table.dataTable > thead > tr > td {
+    border-bottom: none;
+}
+.div.dt-container .dt-length, div.dt-container .dt-search, div.dt-container .dt-info, div.dt-container .dt-processing, div.dt-container .dt-paging {
+    color: #3c4b80;
+}
+.dt-column-order{
+    color:#3c4b80;
+}
+
+@media screen and (max-width: 430px) {
+    table td{
+        text-align: center;
+        font-size: 14px;
+    }
+}

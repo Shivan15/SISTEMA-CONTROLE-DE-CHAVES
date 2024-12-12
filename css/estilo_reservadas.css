@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('topo.css');
+@import url('tabelas.css');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f3f3f3;
+    padding: 0;
+}
+
+.breadcrumb {
+    width: 100%;
+    margin-top: 7%;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 2%;
+}
+.link-sair{
+    margin-right: 2%;
+}
+.titulo-principal{
+    text-align: center;
+    color: #3c4b80;
+}
+
+.block{
+    position: absolute;
+    height: 4%;
+}
+.img_senac_logo{
+    margin-right: 9%;
+    width: 55px;
+    height: 35px;
+    margin-top: 12px;
+ }
+ .keybox{
+    margin: auto;
+    width: 1000%;
+    right: 80%;
+    display: flex;
+    justify-content: center;   
+}
+.chaves-disponiveis{
+    width: 50%;
+}
+
+@media screen and (max-width: 430px){
+    .breadcrumb{
+        margin-top: 20%;
+    }
+}
